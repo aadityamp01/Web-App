@@ -1,0 +1,55 @@
+<html>
+	<head><title>Welcome</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Registration Form</h1>
+	  	
+		 	<form>
+				<div class="form-reg">
+		 			<label for = "name"> Name  </label>
+		 			<input id="name" type="name" value="" class="form-reg"><br>			
+				</div>
+
+				<div class="form-reg">
+		 			<label for = "email"> Email Address  </label>
+		 			<input id="email" type="email" value="" class="form-reg"><br>		 								
+				</div>
+
+				<div class="form-reg">
+		 			<label for = "password"> Password  </label>
+		 			<input id="password" type="password" value="" class="form-reg"><br>
+		 		</div>
+
+		 		<div class="form-reg">
+		 			<label for = "cpassword"> Confirm Password  </label>
+		 			<input id="cpassword" type="cpassword" value="" class="form-reg"><br>
+		 		</div>
+
+				<div class="form-reg">
+					Gender : 
+		 			<input type="radio" id="male" name="gender" value="male">
+					<label for="male">Male</label> 
+					<input type="radio" id="female" name="gender" value="female">
+					<label for="female">Female</label>
+					<input type="radio" id="other" name="gender" value="other">
+					<label for="other">Other</label> <br>	
+					<br>
+				</div>
+
+				Agree Terms & Condition : <button type="button" onclick="alert('I Agreed !')"> Terms & Condition </button><br>
+				<br>
+			
+				<div class="formsubmit">
+					<input onclick="formSubmitted()" 
+					type = "submit" class="submit"> 
+					</input>				
+				</div>
+			
+	 		</form>
+		 </div>
+		 
+	</body>
+</html>
